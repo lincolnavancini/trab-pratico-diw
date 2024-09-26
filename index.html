@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de Séries</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header id="cabecalho" class="position-sticky bg-dark text-white py-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="logo">Minha Logo</div>
+            <nav>
+                <ul class="nav">
+                    <li class="nav-item"><a href="#cabecalho" class="nav-link text-white">Início</a></li>
+                    <li class="nav-item"><a href="#seriespopulares" class="nav-link text-white">Séries Populares</a></li>
+                    <li class="nav-item"><a href="#novasseries" class="nav-link text-white">Novas Séries</a></li>
+                    <li class="nav-item"><a href="#sobre" class="nav-link text-white">Sobre</a></li>
+                    <li class="nav-item"><a href="#minhasseries" class="nav-link text-white">Minhas Séries</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+
+    <!-- Título "Séries Populares" -->
+    <section id="seriespopulares" class="mt-5 text-center">
+        <h2>Séries Populares</h2>
+    </section>
+
+    <!-- Seção 1 - Carrossel de Séries Populares -->
+    <div id="carouselExampleCaptions" class="carousel slide mt-3" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://via.placeholder.com/1200x400" class="d-block w-100" alt="Série 1">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Série 1</h5>
+                    <p>Descrição da Série 1.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://via.placeholder.com/1200x400" class="d-block w-100" alt="Série 2">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Série 2</h5>
+                    <p>Descrição da Série 2.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://via.placeholder.com/1200x400" class="d-block w-100" alt="Série 3">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Série 3</h5>
+                    <p>Descrição da Série 3.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- Seção 2 - Novas Séries -->
+    <section id="novasseries" class="recent-series mt-5">
+        <div class="container">
+            <h2 class="text-center">Novas Séries</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/400x300" class="card-img-top" alt="Série Recente 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Série Nova 1</h5>
+                            <p class="card-text">Informações sobre a série recente 1.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/400x300" class="card-img-top" alt="Série Recente 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Série Nova 2</h5>
+                            <p class="card-text">Informações sobre a série nova 2.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/400x300" class="card-img-top" alt="Série Recente 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Série Nova 3</h5>
+                            <p class="card-text">Informações sobre a série nova 3.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/400x300" class="card-img-top" alt="Série Recente 4">
+                        <div class="card-body">
+                            <h5 class="card-title">Série Nova 4</h5>
+                            <p class="card-text">Informações sobre a série nova 4.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Seção 3 - Sobre o Criador do Site -->
+        <section id="sobre" class="about mt-5">
+            <div class="container">
+                <h2>Informações do(a) Aluno(a)</h2>
+                <div class="row">
+                    <!-- Coluna 1: Texto sobre o site -->
+                    <div class="col-md-6">
+                        <h2>Sobre</h2>
+                        <p>Olá, me chamo Lincoln. Este site foi criado por mim com o objetivo de compartilhar e explorar séries populares, recentes e favoritas de forma simples e interativa. E claro mirando no objetivo principal que seria botar em prática os aprendizados da matéria de Desenvolvimento de Interfaces Web</p>
+                    </div>
+                    <!-- Coluna 2: Autoria -->
+                    <div class="col-md-6 text-center">
+                        <h2>Autoria</h2>
+                        <div class="card">
+                            <img src="https://via.placeholder.com/150" class="card-img-top rounded-circle mx-auto mt-3" alt="Sua Imagem" style="width: 150px;">
+                            <div class="card-body">
+                                <h5 class="card-title">Lincoln Avancini Prates</h5>
+                                <p class="card-text">Curso: Ciência da Computação<br>Turma: Matutino</p>
+                                <!-- Espaço para Ícones de Redes Sociais -->
+                                <div class="social-icons mt-3">
+                                    <a href="#" class="text-dark mx-2"><i class="bi bi-instagram"></i></a>
+                                    <a href="#" class="text-dark mx-2"><i class="bi bi-linkedin"></i></a>
+                                    <a href="#" class="text-dark mx-2"><i class="bi bi-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+
+            <!-- Seção 4 - Minhas Séries Favoritas -->
+            <section id="minhasseries" class="recent-series mt-5">
+                <div class="container">
+                    <h2 class="text-center">Minhas Séries</h2>
+                    <div class="row justify-content-center">
+                        <div class="col-md-3 col-sm-6 mb-4">
+                            <div class="card">
+                                <img src="https://via.placeholder.com/400x300" class="card-img-top" alt="Série Recente 1">
+                                <div class="card-body">
+                                    <h5 class="card-title">Série 1</h5>
+                                    <p class="card-text">Informações sobre a série 1.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 mb-4">
+                            <div class="card">
+                                <img src="https://via.placeholder.com/400x300" class="card-img-top" alt="Série Recente 2">
+                                <div class="card-body">
+                                    <h5 class="card-title">Série 2</h5>
+                                    <p class="card-text">Informações sobre a série 2.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 mb-4">
+                            <div class="card">
+                                <img src="https://via.placeholder.com/400x300" class="card-img-top" alt="Série Recente 3">
+                                <div class="card-body">
+                                    <h5 class="card-title">Série 3</h5>
+                                    <p class="card-text">Informações sobre a série 3.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 mb-4">
+                            <div class="card">
+                                <img src="https://via.placeholder.com/400x300" class="card-img-top" alt="Série Recente 4">
+                                <div class="card-body">
+                                    <h5 class="card-title">Série 4</h5>
+                                    <p class="card-text">Informações sobre a série 4.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+    
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

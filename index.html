@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,16 +10,18 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
     <!-- Cabeçalho -->
     <header id="cabecalho" class="position-sticky bg-dark text-white py-3">
         <div class="container d-flex justify-content-between align-items-center">
-            <div class="logo">Minha Logo</div>
+            <div class="logo"> <img src="assets/Preview.png" width="100" height="100"> </div>
             <nav>
                 <ul class="nav">
-                    <li class="nav-item"><a href="#cabecalho" class="nav-link text-white">Início</a></li>
-                    <li class="nav-item"><a href="#seriespopulares" class="nav-link text-white">Séries Populares</a></li>
+                    <li class="nav-item"><a href="explorer.html" class="nav-link text-white" target="_blank">Explorador</a></li>
+                    <li class="nav-item"><a href="#seriespopulares" class="nav-link text-white">Séries Populares</a>
+                    </li>
                     <li class="nav-item"><a href="#novasseries" class="nav-link text-white">Novas Séries</a></li>
                     <li class="nav-item"><a href="#sobre" class="nav-link text-white">Sobre</a></li>
                     <li class="nav-item"><a href="#minhasseries" class="nav-link text-white">Minhas Séries</a></li>
@@ -26,7 +29,7 @@
             </nav>
         </div>
     </header>
-    
+
 
     <!-- Título "Séries Populares" -->
     <section id="seriespopulares" class="mt-5 text-center">
@@ -36,38 +39,47 @@
     <!-- Seção 1 - Carrossel de Séries Populares -->
     <div id="carouselExampleCaptions" class="carousel slide mt-3" data-bs-ride="carousel">
         <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="https://via.placeholder.com/1200x400" class="d-block w-100" alt="Série 1">
+                <img src="assets/prisonbreak.jpg" width="1200" height="600" class="d-block w-100" alt="Série 1">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Série 1</h5>
-                    <p>Descrição da Série 1.</p>
+                    <h5>Prison Break</h5>
+                    <p>Prison Break é uma série de televisão norte-americana de ação, crime e drama que conta a história
+                        de Michael Scofield, um engenheiro que decide ir para a prisão para ajudar seu irmão, Lincoln
+                        Burrows, a fugir da cadeia.</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="https://via.placeholder.com/1200x400" class="d-block w-100" alt="Série 2">
+                <img src="assets/sharktank.png" width="1200" height="600" class="d-block w-100" alt="Série 2">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Série 2</h5>
-                    <p>Descrição da Série 2.</p>
+                    <h5>Shark Tank Brasil</h5>
+                    <p>O Shark Tank Brasil é um reality show que coloca frente a frente empreendedores brasileiros e
+                        investidores, chamados de "tubarões", que avaliam ideias de negócio e podem investir nelas.</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="https://via.placeholder.com/1200x400" class="d-block w-100" alt="Série 3">
+                <img src="assets/montros.jpg" width="1200" height="600" class="d-block w-100" alt="Série 3">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Série 3</h5>
-                    <p>Descrição da Série 3.</p>
+                    <h5>Monstros</h5>
+                    <p>Esta série sobre um crime real examina as vidas dos irmãos Menendez, condenados pelo assassinato
+                        brutal dos pais em 1989.</p>
                 </div>
             </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
@@ -80,37 +92,46 @@
             <div class="row justify-content-center">
                 <div class="col-md-3 col-sm-6 mb-4">
                     <div class="card">
-                        <img src="https://via.placeholder.com/400x300" class="card-img-top" alt="Série Recente 1">
+                        <img src="assets/ted-a-serie.jpg" width="400" height="300" class="card-img-top"
+                            alt="Série Recente 1">
                         <div class="card-body">
-                            <h5 class="card-title">Série Nova 1</h5>
-                            <p class="card-text">Informações sobre a série recente 1.</p>
+                            <h5 class="card-title">Ted: a Série</h5>
+                            <p class="card-text">O famoso e rebelde ursinho de pelúcia, Ted, recebe uma história de
+                                prelúdio na série de mesmo nome.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 mb-4">
                     <div class="card">
-                        <img src="https://via.placeholder.com/400x300" class="card-img-top" alt="Série Recente 2">
+                        <img src="assets/acima-de-qualquer-suspeita.jpg" width="400" height="300" class="card-img-top"
+                            alt="Série Recente 2">
                         <div class="card-body">
-                            <h5 class="card-title">Série Nova 2</h5>
-                            <p class="card-text">Informações sobre a série nova 2.</p>
+                            <h5 class="card-title">Acima de Qualquer Suspeita</h5>
+                            <p class="card-text">Acompanha os desfechos de um assassinato horrível que perturba o
+                                escritório do Ministério Público de Chicago, quando um de seus membros se torna um dos
+                                principais suspeitos do crime.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 mb-4">
                     <div class="card">
-                        <img src="https://via.placeholder.com/400x300" class="card-img-top" alt="Série Recente 3">
+                        <img src="assets/no-caminho.jpg" width="400" height="300" class="card-img-top"
+                            alt="Série Recente 3">
                         <div class="card-body">
-                            <h5 class="card-title">Série Nova 3</h5>
-                            <p class="card-text">Informações sobre a série nova 3.</p>
+                            <h5 class="card-title">No Caminho</h5>
+                            <p class="card-text">Esta série documental em oito episódios acompanha Jason Momoa em
+                                viagens pelos Estados Unidos, onde o astro busca novas aventuras e amizades.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 mb-4">
                     <div class="card">
-                        <img src="https://via.placeholder.com/400x300" class="card-img-top" alt="Série Recente 4">
+                        <img src="assets/montros.jpg" width="400" height="300" class="card-img-top"
+                            alt="Série Recente 4">
                         <div class="card-body">
-                            <h5 class="card-title">Série Nova 4</h5>
-                            <p class="card-text">Informações sobre a série nova 4.</p>
+                            <h5 class="card-title">Monstros</h5>
+                            <p class="card-text">Esta série sobre um crime real examina as vidas dos irmãos Menendez,
+                                condenados pelo assassinato brutal dos pais em 1989.</p>
                         </div>
                     </div>
                 </div>
@@ -118,86 +139,105 @@
         </div>
     </section>
 
-        <!-- Seção 3 - Sobre o Criador do Site -->
-        <section id="sobre" class="about mt-5">
-            <div class="container">
-                <h2>Informações do(a) Aluno(a)</h2>
-                <div class="row">
-                    <!-- Coluna 1: Texto sobre o site -->
-                    <div class="col-md-6">
-                        <h2>Sobre</h2>
-                        <p>Olá, me chamo Lincoln. Este site foi criado por mim com o objetivo de compartilhar e explorar séries populares, recentes e favoritas de forma simples e interativa. E claro mirando no objetivo principal que seria botar em prática os aprendizados da matéria de Desenvolvimento de Interfaces Web</p>
-                    </div>
-                    <!-- Coluna 2: Autoria -->
-                    <div class="col-md-6 text-center">
-                        <h2>Autoria</h2>
-                        <div class="card">
-                            <img src="https://via.placeholder.com/150" class="card-img-top rounded-circle mx-auto mt-3" alt="Sua Imagem" style="width: 150px;">
-                            <div class="card-body">
-                                <h5 class="card-title">Lincoln Avancini Prates</h5>
-                                <p class="card-text">Curso: Ciência da Computação<br>Turma: Matutino</p>
-                                <!-- Espaço para Ícones de Redes Sociais -->
-                                <div class="social-icons mt-3">
-                                    <a href="#" class="text-dark mx-2"><i class="bi bi-instagram"></i></a>
-                                    <a href="#" class="text-dark mx-2"><i class="bi bi-linkedin"></i></a>
-                                    <a href="#" class="text-dark mx-2"><i class="bi bi-github"></i></a>
-                                </div>
+    <!-- Seção 3 - Sobre o Criador do Site -->
+    <section id="sobre" class="about mt-5">
+        <div class="container">
+            <h2>Informações do(a) Aluno(a)</h2>
+            <div class="row">
+                <!-- Coluna 1: Texto sobre o site -->
+                <div class="col-md-6">
+                    <h2>Sobre</h2>
+                    <p>Olá, me chamo Lincoln. Este site foi criado por mim com o objetivo de compartilhar e explorar
+                        séries populares, recentes e favoritas de forma simples e interativa. E claro mirando no
+                        objetivo principal que seria botar em prática os aprendizados da matéria de Desenvolvimento de
+                        Interfaces Web.</p>
+                </div>
+                <!-- Coluna 2: Autoria -->
+                <div class="col-md-6 text-center">
+                    <h2>Autoria</h2>
+                    <div class="card">
+                        <img src="assets/euhk.jpg" width="150" height="150"
+                            class="card-img-top rounded-circle mx-auto mt-3" alt="Sua Imagem" style="width: 150px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Lincoln Avancini Prates</h5>
+                            <p class="card-text">Curso: Ciência da Computação<br>Turma: Matutino</p>
+                            <!-- Espaço para Ícones de Redes Sociais -->
+                            <div class="social-icons mt-3">
+                                <a href="https://www.instagram.com/lincolnavancinii/" class="text-dark mx-2"><i
+                                        class="bi bi-instagram"></i></a>
+                                <a href="https://www.linkedin.com/in/lincolnavancini15/" class="text-dark mx-2"><i
+                                        class="bi bi-linkedin"></i></a>
+                                <a href="https://github.com/lincolnavancini" class="text-dark mx-2"><i
+                                        class="bi bi-github"></i></a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-    
+        </div>
+    </section>
 
-            <!-- Seção 4 - Minhas Séries Favoritas -->
-            <section id="minhasseries" class="recent-series mt-5">
-                <div class="container">
-                    <h2 class="text-center">Minhas Séries</h2>
-                    <div class="row justify-content-center">
-                        <div class="col-md-3 col-sm-6 mb-4">
-                            <div class="card">
-                                <img src="https://via.placeholder.com/400x300" class="card-img-top" alt="Série Recente 1">
-                                <div class="card-body">
-                                    <h5 class="card-title">Série 1</h5>
-                                    <p class="card-text">Informações sobre a série 1.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6 mb-4">
-                            <div class="card">
-                                <img src="https://via.placeholder.com/400x300" class="card-img-top" alt="Série Recente 2">
-                                <div class="card-body">
-                                    <h5 class="card-title">Série 2</h5>
-                                    <p class="card-text">Informações sobre a série 2.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6 mb-4">
-                            <div class="card">
-                                <img src="https://via.placeholder.com/400x300" class="card-img-top" alt="Série Recente 3">
-                                <div class="card-body">
-                                    <h5 class="card-title">Série 3</h5>
-                                    <p class="card-text">Informações sobre a série 3.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6 mb-4">
-                            <div class="card">
-                                <img src="https://via.placeholder.com/400x300" class="card-img-top" alt="Série Recente 4">
-                                <div class="card-body">
-                                    <h5 class="card-title">Série 4</h5>
-                                    <p class="card-text">Informações sobre a série 4.</p>
-                                </div>
-                            </div>
+
+    <!-- Seção 4 - Minhas Séries Favoritas -->
+    <section id="minhasseries" class="recent-series mt-5">
+        <div class="container">
+            <h2 class="text-center">Minhas Séries</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="card">
+                        <img src="assets/breaking-bad.jpg" width="400" height="300" class="card-img-top"
+                            alt="Série Recente 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Breaking Bad</h5>
+                            <p class="card-text">"Breaking Bad" é uma série de TV sobre Walter White, um professor de
+                                química diagnosticado com câncer terminal, que começa a produzir metanfetamina para
+                                assegurar o futuro de sua família.</p>
                         </div>
                     </div>
                 </div>
-            </section>
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="card">
+                        <img src="assets/game-of-thrones.jpg" width="400" height="300" class="card-img-top"
+                            alt="Série Recente 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Game Of Thrones</h5>
+                            <p class="card-text">Ambientada nos continentes fictícios de Westeros e Essos, a série gira
+                                em torno de alianças e conflitos entre famílias nobres que disputam o Trono de Ferro ou
+                                resistem ao seu domínio.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="card">
+                        <img src="assets/how-i-met-your-mother.jpg" width="400" height="300" class="card-img-top"
+                            alt="Série Recente 3">
+                        <div class="card-body">
+                            <h5 class="card-title">How I Met Your Mother</h5>
+                            <p class="card-text">A série mostra Ted Mosby em 2030 narrando aos seus filhos a história de
+                                como conheceu a mãe deles.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="card">
+                        <img src="assets/the-office.jpg" width="400" height="300" class="card-img-top"
+                            alt="Série Recente 4">
+                        <div class="card-body">
+                            <h5 class="card-title">Série 4</h5>
+                            <p class="card-text">O iludido chefe Michael procura conduzir seus funcionários
+                                insatisfeitos na empresa de papel Dunder Mifflin em meio a incessantes contratempos e
+                                idiossincrasias.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    
+
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
